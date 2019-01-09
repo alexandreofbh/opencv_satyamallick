@@ -1,0 +1,55 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/prem/learning/opencv/labs/proj/cpp/build/dlib_build/cudnn_test_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_400ef/fast"
+/usr/bin/make -f CMakeFiles/cmTC_400ef.dir/build.make CMakeFiles/cmTC_400ef.dir/build
+make[1]: Entering directory '/home/prem/learning/opencv/labs/proj/cpp/build/dlib_build/cudnn_test_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_400ef.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -fPIC    -o CMakeFiles/cmTC_400ef.dir/CheckSymbolExists.c.o   -c /home/prem/learning/opencv/labs/proj/cpp/build/dlib_build/cudnn_test_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_400ef
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_400ef.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC     CMakeFiles/cmTC_400ef.dir/CheckSymbolExists.c.o  -o cmTC_400ef -rdynamic 
+CMakeFiles/cmTC_400ef.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_400ef.dir/build.make:97: recipe for target 'cmTC_400ef' failed
+make[1]: *** [cmTC_400ef] Error 1
+make[1]: Leaving directory '/home/prem/learning/opencv/labs/proj/cpp/build/dlib_build/cudnn_test_build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_400ef/fast' failed
+make: *** [cmTC_400ef/fast] Error 2
+
+File /home/prem/learning/opencv/labs/proj/cpp/build/dlib_build/cudnn_test_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/prem/learning/opencv/labs/proj/cpp/build/dlib_build/cudnn_test_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_69e71/fast"
+/usr/bin/make -f CMakeFiles/cmTC_69e71.dir/build.make CMakeFiles/cmTC_69e71.dir/build
+make[1]: Entering directory '/home/prem/learning/opencv/labs/proj/cpp/build/dlib_build/cudnn_test_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_69e71.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_69e71.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_69e71
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_69e71.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_69e71.dir/CheckFunctionExists.c.o  -o cmTC_69e71 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_69e71.dir/build.make:97: recipe for target 'cmTC_69e71' failed
+make[1]: *** [cmTC_69e71] Error 1
+make[1]: Leaving directory '/home/prem/learning/opencv/labs/proj/cpp/build/dlib_build/cudnn_test_build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_69e71/fast' failed
+make: *** [cmTC_69e71/fast] Error 2
+
+

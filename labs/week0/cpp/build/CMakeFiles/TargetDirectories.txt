@@ -1,0 +1,6 @@
+/home/prem/learning/opencv/labs/week0/cpp/build/CMakeFiles/rebuild_cache.dir
+/home/prem/learning/opencv/labs/week0/cpp/build/CMakeFiles/edit_cache.dir
+/home/prem/learning/opencv/labs/week0/cpp/build/CMakeFiles/facialLandmarkDetector.dir
+/home/prem/learning/opencv/labs/week0/cpp/build/dlib_build/CMakeFiles/edit_cache.dir
+/home/prem/learning/opencv/labs/week0/cpp/build/dlib_build/CMakeFiles/rebuild_cache.dir
+/home/prem/learning/opencv/labs/week0/cpp/build/dlib_build/CMakeFiles/dlib.dir

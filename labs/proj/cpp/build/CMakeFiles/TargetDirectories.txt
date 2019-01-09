@@ -1,0 +1,6 @@
+/home/prem/learning/opencv/labs/proj/cpp/build/CMakeFiles/edit_cache.dir
+/home/prem/learning/opencv/labs/proj/cpp/build/CMakeFiles/rebuild_cache.dir
+/home/prem/learning/opencv/labs/proj/cpp/build/CMakeFiles/proj.dir
+/home/prem/learning/opencv/labs/proj/cpp/build/dlib_build/CMakeFiles/edit_cache.dir
+/home/prem/learning/opencv/labs/proj/cpp/build/dlib_build/CMakeFiles/rebuild_cache.dir
+/home/prem/learning/opencv/labs/proj/cpp/build/dlib_build/CMakeFiles/dlib.dir

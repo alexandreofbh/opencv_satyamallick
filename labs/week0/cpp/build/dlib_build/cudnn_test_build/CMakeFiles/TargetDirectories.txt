@@ -1,3 +1,0 @@
-/home/prem/learning/opencv/labs/week0/cpp/build/dlib_build/cudnn_test_build/CMakeFiles/rebuild_cache.dir
-/home/prem/learning/opencv/labs/week0/cpp/build/dlib_build/cudnn_test_build/CMakeFiles/edit_cache.dir
-/home/prem/learning/opencv/labs/week0/cpp/build/dlib_build/cudnn_test_build/CMakeFiles/cudnn_test.dir

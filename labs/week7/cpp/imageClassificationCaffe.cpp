@@ -40,7 +40,8 @@ int main(int argc, char** argv)
     // Process frames.
     Mat blob;
     //! [Create a 4D blob from a frame]
-    blobFromImage(frame, blob, scale, Size(inWidth, inHeight), mean, swapRB, false);
+    //blobFromImage(frame, blob, scale, Size(inWidth, inHeight), mean, swapRB, false);
+	blob = blobFromImage(frame, scale, Size(inWidth, inHeight), mean, swapRB, false);
 
     //! [Set input blob]
     net.setInput(blob);
